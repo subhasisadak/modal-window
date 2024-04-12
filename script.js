@@ -4,7 +4,7 @@ let flag = 0;
 function toggle() {
     if(flag == 0){
         blur.classList.toggle('active');
-        console.log("done");
+        // console.log("done");
         popup.classList.toggle('active');
         // console.log(popup);
         flag = 1;
